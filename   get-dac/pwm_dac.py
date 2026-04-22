@@ -15,7 +15,7 @@ class PWMDAC:
 
     def deinit(self):
         try:
-            self.pw.ChangeDutyCycle(0)
+            self.pwm.ChangeDutyCycle(0)
             self.pwm.stop()
         finally:
             GPIO.output(self.gpio_pin, 0)
