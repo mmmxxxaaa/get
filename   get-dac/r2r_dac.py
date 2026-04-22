@@ -39,7 +39,7 @@ class R2R_DAC:
 if __name__ == "__main__":
     dac = None
     try:
-        dac = R2R_DAC([16, 20, 21, 25, 26, 17, 27, 22], 3.3, True)
+        dac = R2R_DAC([16, 20, 21, 25, 26, 17, 27, 22], 3.18, True)
         while True:
             try:
                 voltage = float(input("Введите напряжение в вольтах: "))

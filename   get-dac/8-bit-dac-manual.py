@@ -2,10 +2,10 @@ import RPi.GPIO as GPIO
 
 GPIO.setmode(GPIO.BCM)
 
-dac_bits = [16, 20, 21, 25, 26, 17, 27, 22] # На плате опечатка // не то выводится
+dac_bits = [16, 20, 21, 25, 26, 17, 27, 22] 
 GPIO.setup(dac_bits, GPIO.OUT)
 
-dynamic_range = 3.3 #возможно не то 
+dynamic_range = 3.18 
 
 def voltage_to_number(voltage):
     if not (0.0 <= voltage <= dynamic_range):
