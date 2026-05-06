@@ -20,7 +20,7 @@ def plot_sampling_period_hist(time_values):
 
     plt.figure (figsize=(10, 6))
     plt.hist   (sampling_periods)
-    plt.xlim   (0, 0.06)
+    plt.xlim   (0, 0.16)
     plt.xlabel ("Период измерерия, c")
     plt.ylabel ("Количество измерений")
     plt.title  ("Распределение периодов дискретизации измерений по времени на одно измерение")

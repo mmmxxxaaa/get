@@ -8,7 +8,7 @@ if __name__ == "__main__":
 
     voltage_values = []
     time_values = []
-    duration = 3.0
+    duration = 5.0
 
     try:
         start_time = time.time()
